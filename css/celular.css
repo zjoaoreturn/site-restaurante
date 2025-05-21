@@ -38,6 +38,7 @@ body{
 #background{
     background-color: rgba(0, 0, 0, 0.484);
     height: 50px;
+    max-width: 600px;
 }
 
 #menu-bar{
