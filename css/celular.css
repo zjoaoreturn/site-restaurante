@@ -1,0 +1,98 @@
+/* 
+
+Typical Device Breakpoints 
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768 até 992px
+Desktop: 992 até 1200px
+Grandes Telas: acima de 1200px
+
+*/
+
+/* Modelo Celular */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Header / Menu-Bar */
+
+#sect1{
+    background-image: url(../img/imagem\ 1.png);
+    background-size: cover;
+    background-position: center left;
+    height: 100vh;
+}
+
+#background{
+    min-width: 600px;
+    background-color: rgba(0, 0, 0, 0.484);
+    height: 50px;
+}
+
+#menu-bar{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    display: inline-flex;
+    margin-left: 8vw;
+    align-items: center;
+}
+
+a{
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-left: 5%;
+    font-weight: 600;
+    position: relative;
+}
+
+a::before{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    width: 0%;
+    height: 3px;
+    background-color: chocolate;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+a:hover::before{
+    width: 100%;
+}
+
+#sect2 p{
+    text-align: justify;
+    color: white;
+    margin: 0px 20px 20px 20px;
+}
+
+#sect2 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+    
+
+
+
+
+
+
+
