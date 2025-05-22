@@ -142,6 +142,10 @@ ul{
 ul > li{
     display: inline;
     margin-left: 40px;
+}
+
+ul > li > a{
+    text-decoration: none;
     color: white;
 }
 
