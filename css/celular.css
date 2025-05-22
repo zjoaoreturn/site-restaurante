@@ -40,7 +40,7 @@ body{
 }
 
 #menu-bar{
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -48,15 +48,14 @@ h1{
     font-size: 2em;
     color: white;
     display: inline-flex;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 #link1{
-    margin-left: 35px;
+    margin-left: 80px;
 }
 
 .link{
-    text-align: center;
     color: white;
     font-size: 1.2em;
     text-decoration: none;
