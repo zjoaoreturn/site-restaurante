@@ -44,21 +44,17 @@ body{
 
 #menu-bar{
     display: inline-flex;
-    align-items: center;
 }
 
 h1{
     font-size: 2em;
     color: white;
     display: inline-flex;
-    margin-left: 40px;
-}
-
-#link1{
-    margin-left: 60px;
+    margin-left: 25px;
 }
 
 .link{
+    
     color: white;
     font-size: 1.2em;
     text-decoration: none;
