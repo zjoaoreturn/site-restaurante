@@ -46,19 +46,28 @@ body{
     display: inline-flex;
 }
 
-h1{
-    font-size: 2em;
-    color: white;
+#align{
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+}
+
+#logo{
+    background-image: url(../img/logo-da-loja.jpeg);
+    background-size: cover;
+    margin-top: 2px;
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 50%;
     display: inline-flex;
-    margin-left: 25px;
 }
 
 .link{
-    
     color: white;
     font-size: 1.2em;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 20px;
     font-weight: 600;
     position: relative;
 }
@@ -81,22 +90,65 @@ h1{
     width: 100%;
 }
 
-#sect2 p{
+#sect p{
+    text-indent: 20px;
     text-align: justify;
     color: white;
     margin: 0px 20px 20px 20px;
 }
 
-#sect2 h2{
-    margin-top: 20px;
-    margin-left: 20px;
+#sect h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
 }
     
+/* ------------------ */
 
+#img-restaurante{
+    background-image: url(../img/foto-restaurante.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: 250px;
+}
 
+#img-dono{
+    background-image: url(../img/dono-da-empresa.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: 250px;
+}
 
+#rodape{
 
+}
 
+h3{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
 
+ul{
+    margin: 10px;
+    display: inline-flex;
+    justify-items: center;
+}
 
+ul > li{
+    display: inline;
+    margin-left: 40px;
+    color: white;
+}
+
+#icon-zap{ 
+    color: green;
+}
+
+#icon-instagram{
+    color: blueviolet;
+}
