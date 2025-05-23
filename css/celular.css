@@ -65,7 +65,7 @@ body{
 
 .link{
     color: white;
-    font-size: 1.4em;
+    font-size: 1.6em;
     text-decoration: none;
     margin-left: 20px;
     font-weight: 600;
@@ -80,7 +80,7 @@ body{
     bottom: -3px;
     left: 0px;
     width: 0%;
-    height: 3px;
+    height: 4px;
     background-color: chocolate;
     border-radius: 50px;
     transition: all 0.5s ease;
@@ -121,10 +121,6 @@ body{
     background-repeat: no-repeat;
     margin: 20px;
     height: 250px;
-}
-
-#rodape{
-
 }
 
 h3{
