@@ -70,7 +70,7 @@ body{
     background-color: transparent;
     border: none;
     top: -60px;
-    left: 370px;
+    left: 340px;
     z-index: 3;
 }
 
@@ -89,7 +89,7 @@ span{
     padding-top: 50px;
     padding-bottom: 5px;
     top:-58px;
-    left: 300px;
+    left: 270px;
     border-radius: 4px;
     z-index: 0;
 }
