@@ -85,42 +85,35 @@ nav > a{
 
 /* --------------------------- */
 
-/* bacground/destaque */
+/* Produtos */
 
-#img-hamburguer{
-    background-image: url(../img/img-cardapio/img-hamburguer-1.jpg);
+#container{
+    background-color: rgb(101, 50, 14);
+    width: 80vw;
+    height: 220px;
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+#container .produtos{
+    min-width: 12rem;
+    max-height: 12rem;
+    background-color: black;
+    margin-left: 2rem;
+}
+
+.img{
+    background-image: url(../img/img-cardapio/img-hamburguer-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
     width: 100%;
-    position: relative;
+    height: 100%;
 }
 
-#container-destaque{
-    position: absolute;
-    top: 430px;
-    left: 120px;
-}
 
-#destaque{
-    background-color: rgb(97, 50, 17);
-    color: white;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 4px 4px 8px white;
-    height: 40px;
-    width: 150px;
-    font-size: 1.5em;
-}
 
-/* Só para computador(opcional)*/
-
-#destaque:hover{
-    color: chocolate;
-    box-shadow: 0px 0px 15px chocolate;
-    transform: translateY(-25px);
-    transition: all 1s ease-in-out;
-}
 
 /* --------------------------- */
 
