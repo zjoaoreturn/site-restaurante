@@ -63,7 +63,7 @@ body{
 
 menu{
     display: none;
-    width: 100vw;
+    width: 100%;
 }
 
 nav{
@@ -99,6 +99,7 @@ nav > a{
     height: 300px;
     display: flex;
     padding: 10px;
+    margin: 2px;
     overflow-x: auto;
 }
 
