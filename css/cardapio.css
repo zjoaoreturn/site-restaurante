@@ -94,12 +94,15 @@ nav > a{
     font-size: 1.8em;
 }
 
+section#conteudo{
+    width: 100%;
+}
+
 #container{
     background-color: rgb(101, 50, 14);
     height: 300px;
     display: flex;
     padding: 10px;
-    margin: 2px;
     overflow-x: auto;
 }
 
