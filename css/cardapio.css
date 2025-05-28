@@ -63,7 +63,6 @@ body{
 
 menu{
     display: none;
-    width: 100%;
 }
 
 nav{
@@ -92,10 +91,6 @@ nav > a{
     text-align: center;
     color: white;
     font-size: 1.8em;
-}
-
-section#conteudo{
-    width: 100%;
 }
 
 #container{
@@ -200,6 +195,7 @@ section#conteudo{
     background-color: rgb(59, 38, 23);
 }
 h3{
+    margin-top: 5px;
     text-align: center;
     font-size: 1.2em;
     color: white;
