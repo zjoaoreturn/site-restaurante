@@ -19,7 +19,7 @@ Grandes Telas: acima de 1200px
 }
 
 body{
-    background-color: black;
+    background-color: rgb(30, 18, 9);
     height: 100vh;
 }
 
@@ -148,6 +148,10 @@ nav > a{
 /* --------------------------- */
 
 /* Rodapé */
+
+#rodape{
+    background-color: rgb(59, 38, 23);
+}
 
 h3{
     text-align: center;

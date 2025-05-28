@@ -19,7 +19,7 @@ Grandes Telas: acima de 1200px
 }
 
 body{
-    background-color: black;
+    background-color: rgb(30, 18, 9);
     height: 100vh;
     width: 100vw;
 }
@@ -27,7 +27,7 @@ body{
 /* Header / Menu-Bar */
 
 #header{
-    background-color: rgba(210, 105, 30, 0.302);
+    background-color: rgba(210, 105, 30, 0.29);
     height: 70px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -75,7 +75,7 @@ nav > a{
     height: 30px;
     text-align: center;
     display: block;
-    border: 1px solid rgba(210, 105, 30, 0.302);
+    border: 2px solid rgba(210, 105, 30, 0.302);
 }
 
 .link{
@@ -136,8 +136,32 @@ nav > a{
     margin-top: 5px;
 }
 
-.img{
-    background-image: url(../img/img-cardapio/img-hamburguer-2.jpg);
+.img1{
+    background-image: url(../img/img-cardapio/img-hamburguer-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.img2{
+    background-image: url(../img/img-cardapio/cachorro-quente.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.img3{
+    background-image: url(../img/img-cardapio/prato-feito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.img4{
+    background-image: url(../img/img-cardapio/coca-cola.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -167,10 +191,41 @@ nav > a{
     font-size: 1.08em;
 }
 
-
-
 /* --------------------------- */
 
-/*  */
+/* Rodapé / footer */
+
+#footer{
+    background-color: rgb(59, 38, 23);
+}
+h3{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+ul{
+    margin: 10px;
+    display: inline-flex;
+    justify-items: center;
+}
+
+ul > li{
+    display: inline;
+    margin-left: 40px;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+#icon-zap{ 
+    color: green;
+}
+
+#icon-instagram{
+    color: blueviolet;
+}
 
 /* --------------------------- */
