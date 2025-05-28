@@ -21,6 +21,7 @@ Grandes Telas: acima de 1200px
 body{
     background-color: black;
     height: 100vh;
+    width: 100vw;
 }
 
 /* Header / Menu-Bar */
@@ -96,7 +97,7 @@ nav > a{
 
 #container{
     background-color: rgb(101, 50, 14);
-    width: 410px;
+    width: 360px;
     height: 300px;
     display: flex;
     margin: 5px;
