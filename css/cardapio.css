@@ -87,12 +87,19 @@ nav > a{
 
 /* Produtos */
 
+.titulo-produtos{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+}
+
 #container{
     background-color: rgb(101, 50, 14);
-    width: 410px;
+    width: 355px;
     height: 300px;
-    margin: 20px;
     display: flex;
+    margin: 5px;
     padding: 10px;
     overflow-x: auto;
 }
@@ -106,7 +113,8 @@ nav > a{
     max-height: 200px;
     background-color: rgb(103, 68, 42);
     margin-left: 10px;
-    padding: 3px 3px 80px 3px;
+    padding: 5px 5px 100px 5px;
+    margin-top: 5px;
 }
 
 .produtos2{
@@ -114,7 +122,8 @@ nav > a{
     max-height: 200px;
     background-color: rgb(103, 68, 42);
     margin-left: 10px;
-    padding: 3px 3px 80px 3px;
+    padding: 5px 5px 100px 5px;
+    margin-top: 5px;
 }
 
 .produtos3{
@@ -122,7 +131,8 @@ nav > a{
     max-height: 200px;
     background-color: rgb(103, 68, 42);
     margin-left: 10px;
-    padding: 3px 3px 80px 3px;
+    padding: 5px 5px 100px 5px;
+    margin-top: 5px;
 }
 
 .img{
@@ -136,22 +146,26 @@ nav > a{
 .nome-produto{
     margin-left: 5px;
     color: white;
+    font-size: 1.25em;
 }
 
 .valor{
     margin-left: 5px;
     color: white;
+    font-size: 1.25em;
 }
 
 .btn-adcionar{
     margin-top: 5px;
-    margin-left: 45px;
+    margin-left: 30px;
     border: 1px solid green;
-    height: 25px;
-    width: 120px;
+    height: 35px;
+    width: 140px;
     border-radius: 30px;
     color: green;
+    font-size: 1.08em;
 }
+
 
 
 /* --------------------------- */
