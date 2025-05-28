@@ -86,10 +86,6 @@ nav > a{
 
 /* Entregador */
 
-section#entregador{
-    width: 100%;
-}
-
 #img-entregador{
     background-image: url(../img/img-cardapio/free-delivery.png);
     background-size: cover;
